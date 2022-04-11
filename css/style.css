@@ -5,8 +5,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
 /* barra di navigazione sinistra */
+header{
+    display: flex;
+}
+
+
+nav{
+    display: inline-block;
+}
+
 #barra-navigazione{
     width: 13vw;
     height: 100vh;
@@ -90,4 +98,23 @@ span{
     margin-left: 15px;
     margin-top: 25px;
     font-size: 25px;
+}
+
+#profilo{
+    text-decoration: none;
+    color: #acacac;
+    border-top: 2px solid #acacac;
+    padding-top: 15px;
+}
+
+#profilo:hover{
+    color: white;
+}
+
+/* barra upgrade */
+#upgrade{
+    background-color: #080b12;
+    width: calc(100% - 100px);
+    height: 80px;
+    display: inline-block;
 }
