@@ -75,3 +75,19 @@ span{
 }
 
 /* installa app + profilo utente */
+.fa-arrow-circle-down{
+    color: #acacac;
+    margin-left: 15px;
+    margin-top: 90px;
+}
+
+#installa{
+    font-size: 15px;
+}
+
+.fa-user-circle{
+    color: #acacac;
+    margin-left: 15px;
+    margin-top: 25px;
+    font-size: 25px;
+}
