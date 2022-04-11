@@ -10,11 +10,6 @@ header{
     display: flex;
 }
 
-
-nav{
-    display: inline-block;
-}
-
 #barra-navigazione{
     width: 13vw;
     height: 100vh;
@@ -114,7 +109,21 @@ span{
 /* barra upgrade */
 #upgrade{
     background-color: #080b12;
-    width: calc(100% - 100px);
+    width: 100%;
     height: 80px;
     display: inline-block;
+    padding-top: 30px;
+}
+
+#pulsante-upgrade{
+    margin-left: 80%;
+    color: white;
+    text-decoration: none;
+    border: 4px solid white;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+#pulsante-upgrade:hover{
+    font-size: 20px;
 }
