@@ -2,5 +2,76 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: 'Montserrat', sans-serif;
 }
+
+
+/* barra di navigazione sinistra */
+#barra-navigazione{
+    width: 13vw;
+    height: 100vh;
+    background-color: black;
+}
+
+header nav #barra-navigazione img{
+    width: 60%;
+    margin: 15px;
+    margin-bottom: 25px;
+}
+
+header nav ul li{
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+header nav ul li a{
+    color: #acacac;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+header nav ul li a:hover{
+    color: white;
+}
+
+header nav ul li a i{
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+/* playlist nuove */
+h2{
+    color: white;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.fa-plus-square{
+    color: #acacac;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 50px;
+}
+
+a .fa-plus-square:hover, span:hover{
+    color: white;
+}
+
+span{
+    color: #acacac;
+    line-height: 15px;
+    font-size: 20px;    
+    margin-left: 10px;
+}
+
+#playlist li{
+    color: #acacac;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#playlist li:hover{
+    color: white;
+}
+
+/* installa app + profilo utente */
