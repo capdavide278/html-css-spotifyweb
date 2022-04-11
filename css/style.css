@@ -5,6 +5,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    background-color: #141922;
+    position: relative;
+}
+
 /* barra di navigazione sinistra */
 header{
     display: flex;
@@ -116,6 +121,7 @@ span{
 }
 
 #pulsante-upgrade{
+    width: 100%;
     margin-left: 80%;
     color: white;
     text-decoration: none;
@@ -126,4 +132,10 @@ span{
 
 #pulsante-upgrade:hover{
     font-size: 20px;
+}
+
+/* corpo della pagina */
+#opzioni-navigazione{
+    background-color: white;
+    width: calc(100% - 200px);
 }
