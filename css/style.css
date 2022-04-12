@@ -263,7 +263,7 @@ h3{
     width: 220px;
     height: 220px;
     position: absolute;
-/*     background-color: white; */
+/*  background-color: white; */
     top: 0;
 }
 
@@ -375,6 +375,10 @@ footer{
     color: white;
 }
 
+#media-player a .fa-play-circle:hover{
+    font-size: 35px;
+}
+
 /* linea della canzone */
 .linea{
     width: 100%;
@@ -397,6 +401,23 @@ footer{
     margin: 0 15px;
     border-radius: 50px;
     margin-top: 5px;
+    position: relative;
+    z-index: 40;
+}
+
+#linea-verde{
+    position: absolute;
+    left: 0;
+    width: 60px;
+    height: 100%;
+    background-color: white;
+    z-index: 50;
+    border-radius: 50px;
+}
+
+#linea-verde:hover{
+    cursor: pointer;
+    background-color: #96d92d;
 }
 
 /* volume */
@@ -419,4 +440,20 @@ footer{
     height: 25%;
     border-radius: 50px;
     margin-top: 5px;
+}
+
+#mi-piace-cartella i:hover{
+    color: #96d92d;
+}
+
+#linea-verde2{
+    background-color: white;
+    height: 5px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+#linea-verde2:hover{
+    cursor: pointer;
+    background-color: #96d92d;
 }
