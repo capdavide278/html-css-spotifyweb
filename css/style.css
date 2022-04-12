@@ -21,7 +21,7 @@ header{
 
 #barra-navigazione{
     width: 13vw;
-    height: 100vh;
+    height: 850px;
     background-color: black;
 }
 
@@ -55,6 +55,10 @@ nav ul li a i{
     font-size: 25px;
 }
 
+#bordo-sinistro{
+    border-left: 2.5px solid #96d92d;    
+}
+
 /* playlist nuove */
 h2{
     color: white;
@@ -80,10 +84,18 @@ span{
     margin-left: 10px;
 }
 
+#playlist{
+    height: 350px;
+}
+
 #playlist li{
     color: #acacac;
     font-size: 15px;
     margin-top: 20px;
+}
+
+#playlist ul{
+    overflow-y: scroll;
 }
 
 #playlist li:hover{
@@ -104,19 +116,27 @@ span{
 .fa-user-circle{
     color: #acacac;
     margin-left: 15px;
-    margin-top: 25px;
     font-size: 25px;
 }
 
 #profilo{
     text-decoration: none;
     color: #acacac;
-    border-top: 2px solid #acacac;
-    padding-top: 15px;
+    /* border-top: 2px solid #acacac; */
+    /* padding-top: 15px; */
+}
+
+hr{
+    margin: 10px 10px;
 }
 
 #profilo:hover{
     color: white;
+}
+
+#blocco-installazione-profilo{
+    margin-left: 15px;
+    /* border: 4px solid white; */
 }
 
 /* barra upgrade */
