@@ -14,7 +14,7 @@ body{
 header{
     display: flex;
     width: 100vw;
-    margin-left: 219px;
+    margin-left: 245px;
     position: fixed;
     z-index: 30;
 }
@@ -28,6 +28,7 @@ header{
 
 nav{
     width: 13%;
+    float: left;
 }
 
 nav #barra-navigazione img{
@@ -139,7 +140,7 @@ hr{
 /* barra upgrade */
 #upgrade{
     background-color: #080b12;
-    width: 100%;
+    width: calc(100% - 13%);
     height: 80px;
     display: inline-block;
     padding-top: 15px;
@@ -166,8 +167,10 @@ hr{
 /* corpo della pagina */
 #container{
     display: flex;
-    width: 100%;
+    width: calc(100% - 13%);
     overflow-y: scroll;
+    float: left;
+    height: 90vh;
 }
 
 #opzioni-navigazione{
@@ -233,7 +236,7 @@ h3{
 
 .copertine img{
     width: 100%;
-    height: 250px;
+    height: 220px;
 }
 
 .fa-play{
