@@ -35,8 +35,8 @@ nav::after{
 
 nav{
     background-color: black;
-    height: 850px;
-    width: 13%;
+    height: 100vh;
+    width: 230px;
     float: left;
 }
 
@@ -178,12 +178,11 @@ hr{
 
 /* corpo della pagina */
 #container{
-    display: flex;
+    /* display: flex; */
     width: calc(100% - 13%);
     overflow-y: scroll;
     float: left;
-    height: 90vh;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 #container::after{
@@ -212,11 +211,7 @@ hr{
     margin: 0 10px;
 }
 
-/* #opzioni-navigazione ul a li{
-    display: inline-block;
-    margin: 0 10px;
-}
- */
+
 #opzioni-navigazione ul li a:hover{
     color: white;
    /*  border-bottom: 2px solid #96d92d; */
@@ -232,7 +227,7 @@ hr{
     margin-top: 25px;
     /* height: 50px; */
     width: 100%;
-    padding-right: 84%;
+    /* padding-right: 84%; */
     color: white;
     font-size: 15px;
 }
@@ -240,7 +235,7 @@ hr{
 .riga{
     margin-top: 20px;
     /* background-color: white; */
-/*     width: 99%;
+/*    width: 99%;
     display: flex;
     margin-left: 15px;
     flex-wrap: wrap; */
@@ -264,12 +259,20 @@ h3{
     position: relative;
 }
 
-.copertine img{
+/* .copertine img{
     width: 10vw;
     height: 220px;
     z-index: 10;
+} */
+
+.contenitore-immagine{
+    width: 12vw;
+    /* background-color: white; */
 }
 
+.contenitore-immagine img{
+    width: 100%;
+}
 /* bottone play */
 .fa-play{
     color: white;
@@ -284,8 +287,8 @@ h3{
 }
 
 .bottoneplay{
-    width: 192px;
-    height: 220px;
+    width: 100%;
+    height: 230px;
     position: absolute;
 /*  background-color: white; */
     top: 0;
@@ -299,9 +302,9 @@ h3{
 }
 
 .bottoneplay-rotondo{
-    border-radius: 102px;
-    width: 192px;
-    height: 220px;
+    border-radius: 105px;
+    width: 100%;
+    height: 230px;
     position: absolute;
 /*     background-color: white; */
     top: 0;
@@ -312,6 +315,11 @@ h3{
     opacity: 0.7;
     z-index: 30;
 }
+
+#container-immagine{
+    width: 10vw;
+}
+
 /* seconda riga */
 .suggerimento{
     margin-top: 25px;
@@ -499,16 +507,10 @@ footer{
 
 @media screen and (max-width: 1431px){
     .riga{
-        width: 99%;
-        display: flex;
+        width: 100%;
+/*         display: flex;
         justify-content: flex-start;
-        flex-wrap: wrap;
-    }
-
-    .copertine img{
-        width: 220px;
-        height: 220px;
-        z-index: 10;
+        flex-wrap: wrap; */
     }
 
     #pulsante-upgrade{
