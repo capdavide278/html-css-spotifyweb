@@ -209,6 +209,7 @@ hr{
     text-decoration: none;
     color: #7f8187;
     display: inline-block;
+    margin: 0 10px;
 }
 
 /* #opzioni-navigazione ul a li{
@@ -380,7 +381,7 @@ footer{
 }
 
 #mi-piace-cartella i{
-    display: flex;
+    /* display: flex; */
     color: white;
     margin: 30px 0 20px 20px;
 }
@@ -390,7 +391,7 @@ footer{
 /*     height: 50px;*/
     width: 500px;
     /* background-color: white; */
-    margin-left: 13%;
+    /* margin-left: 8%; */
     text-align: center;
 }
 
