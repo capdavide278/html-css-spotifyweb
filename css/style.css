@@ -145,11 +145,12 @@ hr{
 /* barra upgrade */
 #upgrade{
     background-color: #080b12;
-    width: calc(100% - 13%);
+    /* width: calc(100% - 13%); */
+    width: 100%;
     height: 80px;
     display: inline-block;
     padding-top: 15px;
-    padding-right: 250px;
+    padding-right: 300px;
     opacity: 0.7;
 }
 
@@ -221,8 +222,13 @@ a li:hover{
 .riga{
     margin-top: 20px;
     /* background-color: white; */
+/*     width: 99%;
+    display: flex;
+    margin-left: 15px;
+    flex-wrap: wrap; */
     width: 99%;
     display: flex;
+    justify-content: flex-start;
     margin-left: 15px;
     flex-wrap: wrap;
 }
@@ -241,7 +247,7 @@ h3{
 }
 
 .copertine img{
-    width: 100%;
+    width: 10vw;
     height: 220px;
     z-index: 10;
 }
@@ -260,7 +266,7 @@ h3{
 }
 
 .bottoneplay{
-    width: 220px;
+    width: 192px;
     height: 220px;
     position: absolute;
 /*  background-color: white; */
@@ -271,11 +277,12 @@ h3{
     background-color: #282828;
     opacity: 0.7;
     z-index: 30;
+
 }
 
 .bottoneplay-rotondo{
     border-radius: 102px;
-    width: 220px;
+    width: 192px;
     height: 220px;
     position: absolute;
 /*     background-color: white; */
@@ -356,6 +363,7 @@ footer{
 }
 
 #mi-piace-cartella i{
+    display: flex;
     color: white;
     margin: 30px 0 20px 20px;
 }
@@ -376,7 +384,7 @@ footer{
 }
 
 #media-player a .fa-play-circle:hover{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 /* linea della canzone */
@@ -386,6 +394,7 @@ footer{
     /* background-color: white; */
     display: inline-block;
     display: flex;
+    position: relative;
 }
 
 .tempo{
@@ -413,6 +422,7 @@ footer{
     background-color: white;
     z-index: 50;
     border-radius: 50px;
+    display: inline-block;
 }
 
 #linea-verde:hover{
@@ -456,4 +466,108 @@ footer{
 #linea-verde2:hover{
     cursor: pointer;
     background-color: #96d92d;
+}
+
+/* effetto hover sui pulsanti */
+.fa-dot-circle{
+    position: absolute;
+    left: 0px;
+    z-index: 50;
+    top: -4px;
+    padding-left: 100px;
+}
+
+
+
+@media screen and (max-width: 1431px){
+    .riga{
+        width: 99%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .copertine img{
+        width: 220px;
+        height: 220px;
+        z-index: 10;
+    }
+
+    #pulsante-upgrade{
+         width: 25%;
+         margin-left: 75%;
+         color: white;
+         text-decoration: none;
+         border: 4px solid white;
+         padding: 10px 25px;
+         border-radius: 20px;
+         display: block;
+         text-align: center;
+    }
+
+    #container{
+        height: 150vh;
+    }
+    @media screen and (max-width: 1000px){
+        .riga{
+            width: 99%;
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+    
+        .copertine img{
+            width: 220px;
+            height: 220px;
+            z-index: 10;
+        }
+    
+        #pulsante-upgrade{
+             width: 25%;
+             margin-left: 75%;
+             color: white;
+             text-decoration: none;
+             border: 4px solid white;
+             padding: 10px 25px;
+             border-radius: 20px;
+             display: block;
+             text-align: center;
+        }
+    
+        #container{
+            height: 150vh;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1000px){
+    .riga{
+        width: 99%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .copertine img{
+        width: 220px;
+        height: 220px;
+        z-index: 10;
+    }
+
+    #pulsante-upgrade{
+         width: 25%;
+         margin-left: 75%;
+         color: white;
+         text-decoration: none;
+         border: 4px solid white;
+         padding: 10px 25px;
+         border-radius: 20px;
+         display: block;
+         text-align: center;
+    }
+
+    #container{
+        height: 150vh;
+    }
 }
